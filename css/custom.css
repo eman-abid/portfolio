@@ -1,0 +1,99 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #D6D6D6;
+}
+
+.footer,.sub_title{
+    font-family: 'Inconsolata', monospace;
+}
+
+/* skill section */
+
+#fh5co-skills {
+    padding: 50px 0;
+}
+
+.icon-container {
+    margin-bottom: 20px;
+    margin: 5px;
+    background-color:  #333533;
+    color: white;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.icon-img {
+    max-width: 100px;
+    height: auto;
+}
+
+.icon-container p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.icon-container:hover {
+    /* Add hover effects */
+    /* opacity: 0.8; */
+    background-color: #ffd000e8;
+    transition: opacity 0.3s ease;
+}
+
+/* button */
+.custom-link {
+    border-radius: 5px !important;
+    background-color: #FFD100 !important;
+    color: black !important;
+    padding: 0.75rem !important;
+    text-decoration: none !important;
+    display: inline-block !important;
+}
+
+.custom-link:hover {
+    background-color: #333533 !important;
+    color: white !important;
+}
+
+.custom-btn {
+    border-radius: 22px !important;
+    background-color: #333533 !important;
+    color: white !important;
+    padding: 1.2rem !important;
+    padding-inline: 1.500rem !important;
+    text-decoration: none !important;
+    display: inline-block !important;
+    
+    border: 2px solid transparent; /* Start with a transparent border */
+    transition: all 0.3s ease; 
+}
+
+.custom-btn:hover {
+    background-color: #FFD100 !important;
+    color: black !important;
+    border: 2px solid #333533;
+}
+
+
+/* skills mobbile view */
+@media (max-width: 576px) {
+    .justify-content-center {
+      flex-wrap: wrap;
+    }
+    
+    .col-6 {
+      flex: 0 0 calc(50% - 10px); /* Adjust the width and margin between columns */
+      max-width: calc(50% - 10px);
+      margin: 5px; /* Space between columns */
+    }
+}
+
+/* For larger screens */
+@media (min-width: 577px) {
+    .icon-container {
+        flex: 0 0 calc(33.333% - 10px); /* Adjust the width as needed */
+        max-width: calc(33.333% - 10px); /* Adjust the width as needed */
+        margin: 5px; /* Space between columns */
+    }
+}
+
+  
